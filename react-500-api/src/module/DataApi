@@ -1,0 +1,14 @@
+/*
+ */
+
+const apiURL = "/get/1360000/WthrWrnInfoService/getWthrWrnList";
+const apiServiceKey =
+  "b3x4XhEFjl7FU74IshbDUiuryg1lxf2%2FIM5nrbhmP9Qle0suViEGy3srthqfNwuY6M4bc%2B%2BBLjkJgofgbNLu4Q%3D%3D";
+
+const fetchData = async () => {
+  const response = await fetch();
+  const json = response.json();
+  return json;
+};
+
+export { fetchData };
